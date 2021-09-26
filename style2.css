@@ -1,0 +1,24 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #262626;
+}
+.mapBox {
+  display: relative;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+}
+.mapBox iframe {
+  width: 100%;
+  height: 100%;
+}
